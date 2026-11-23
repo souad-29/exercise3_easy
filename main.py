@@ -15,7 +15,7 @@ if __name__ == "__main__":
             else:
                 break
         except ValueError:
-            print("Please enter a valid ineger.")
+            print("Please enter a valid integer.")
 
     #collecting the numbers from the user
     numbers = []
@@ -27,10 +27,10 @@ if __name__ == "__main__":
                 numbers.append(number)
                 break
             except ValueError:
-                print("Please enter a valid ineger.")
+                print("Please enter a valid integer.")
 
     #using the function above to get and display the first and last elements
     final_list = get_first_last_element(numbers)
 
-    print("the orignal list:", numbers)
+    print("the original list:", numbers)
     print("the new list:", final_list)
