@@ -9,8 +9,8 @@ def get_first_last_element(numbers):
 while True:
     try:
         count = int(input("How many numbers do you want to enter in a list?"))
-        if count < 2:
-            print("Please enter a number 2 or above.")
+        if count < 1:
+            print("Please enter at least 1 number.")
         else:
             break
     except ValueError:
