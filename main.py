@@ -1,4 +1,7 @@
 def get_first_last_element(numbers):
+    if len(numbers) == 0:
+        return []
+
     result = [numbers[0], numbers[-1]]
     return result
 
